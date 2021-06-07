@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.cadiz.betterfly.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_chracterFragment"
+            app:destination="@id/chracterFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chracterFragment"
+        android:name="com.cadiz.betterfly.character.CharacterFragment"
+        android:label="fragment_chracter"
+        tools:layout="@layout/fragment_character" >
+        <action
+            android:id="@+id/action_chracterFragment_to_characterDetailFragment"
+            app:destination="@id/characterDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterDetailFragment"
+        android:name="com.cadiz.betterfly.character.CharacterDetailFragment"
+        android:label="fragment_character_detail"
+        tools:layout="@layout/fragment_character_detail" >
+        <argument
+            android:name="character"
+            app:argType="com.cadiz.betterfly.model.Character" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.cadiz.betterfly.register.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_characterFragment"
+            app:destination="@id/chracterFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "756638514528",
+    "project_id": "betterflytest-e5d6e",
+    "storage_bucket": "betterflytest-e5d6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756638514528:android:0c37fd8c645405b8833205",
+        "android_client_info": {
+          "package_name": "com.cadiz.betterfly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756638514528-b1rq9koiqqbv8d0l094loun7u33cchmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cadiz.betterfly",
+            "certificate_hash": "0ec191644fb6d409994ae86331c3404b5b99abd7"
+          }
+        },
+        {
+          "client_id": "756638514528-rem1elbbl96hm7tg79fobm5emc3bpq6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzfUIAm7J6wjQaJelFIUjlZ-SeNNnq_RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756638514528-rem1elbbl96hm7tg79fobm5emc3bpq6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

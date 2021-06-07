@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Rick Morty</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fragment_character_title">Listado Morty</string>
+
+    <string name="fragment_character_detail_title">Detalle Morty</string>
+
+
+    <string name="fragment_login">Login</string>
+    <string name="fragment_login_email_error">nombre de usuario vacío o incorrecto</string>
+    <string name="fragment_login_password_error">contraseña vacia o incorrecta</string>
+    <string name="fragment_login_error">Login incorrecto, intente nuevamente</string>
+    <string name="fragment_login_go_register">No tienes una cuenta? Registrate Aqui!</string>
+
+
+
+
+
+    <string name="fragment_register">Registro</string>
+    <string name="fragment_register_error">Error campos vacios o formato correo incorrecto</string>
+
+
+</resources>
