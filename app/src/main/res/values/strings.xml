@@ -15,9 +15,6 @@
     <string name="fragment_login_go_register">No tienes una cuenta? Registrate Aqui!</string>
 
 
-
-
-
     <string name="fragment_register">Registro</string>
     <string name="fragment_register_error">Error campos vacios o formato correo incorrecto</string>
 

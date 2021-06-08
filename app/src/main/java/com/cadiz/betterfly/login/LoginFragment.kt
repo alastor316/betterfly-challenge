@@ -54,8 +54,6 @@ class LoginFragment : Fragment() {
         VerifyUser()
         setupToolbar()
         loadViewModelProvider()
-
-      //  loadAuth()
         login(binding)
 
 
@@ -85,8 +83,7 @@ class LoginFragment : Fragment() {
             if(isValid) {
                 viewModel.login(binding.emailEditText.text.toString(), binding.passwordEditText.text.toString())
                 viewModel.loginUserLiveData?.observe(viewLifecycleOwner, Observer {
-                        //  createNewUser(it)
-                        characterLisetner.NavigateLoginToListCharacter()
+                    characterLisetner.NavigateLoginToListCharacter()
                 })
             }else{
                 Toast.makeText(this.requireContext(), "Error campos vacios o formato correo incorrecto", Toast.LENGTH_LONG).show()
